@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useRouter } from 'next/router';
 import { TextInput, PasswordInput, Button, Title, Text, Container } from '@mantine/core';
 import { notifications } from '@mantine/notifications';
-import { setJwtToken } from './utils/auth';
+import { setJwtToken } from '../utils/auth';
 
 export default function SignUpPage() {
   const router = useRouter();

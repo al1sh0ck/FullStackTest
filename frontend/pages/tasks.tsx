@@ -17,7 +17,7 @@ import {
 } from '@mantine/core';
 import { IconTrash, IconEdit, IconPlus } from '@tabler/icons-react';
 import { notifications } from '@mantine/notifications';
-import { getJwtToken, clearJwtToken } from './utils/auth';
+import { getJwtToken, clearJwtToken } from '../utils/auth';
 
 interface Task {
   id: number;

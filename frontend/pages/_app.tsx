@@ -5,7 +5,7 @@ import { MantineProvider } from '@mantine/core';
 import { Notifications } from '@mantine/notifications';
 import '@mantine/core/styles.css';
 import '@mantine/notifications/styles.css';
-import { getJwtToken } from './utils/auth';
+import { getJwtToken } from '../utils/auth';
 
 const protectedRoutes = ['/tasks']; // Защищенные маршруты
 
