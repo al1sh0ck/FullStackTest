@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   backend:
-    build: ./backend  # путь к бекенду
+    build: ./FastAPIProject  # путь к бекенду
     ports:
       - "8000:8000"
     volumes:
